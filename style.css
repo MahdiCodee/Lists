@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+body {
+    background-color: darkgray;
+}
+  
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+  
+nav {
+    width: 300px;
+    height: 550px;
+    margin: 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+  
+nav:hover {
+    padding: 6px;
+}
+  
+nav img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+  
+nav p {
+    font-size: 17px;
+}
+  
+nav button {
+    width: 200px;
+    height: 60px;
+    background-color: coral;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid coral;
+    font-size: 18px;
+}
+  
+nav button:hover {
+    transition: 0.4s ease;
+    background-color: #000;
+    color: coral;
+    border: 1px solid #000;
+}
